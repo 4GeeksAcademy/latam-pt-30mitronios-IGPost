@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body div {
+    width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.post {
+    background: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.post-header {
+    display: flex;
+    padding: 20px 10px;
+   position: relative;
+}
+
+.top-left   {
+    position: absolute;
+    left: 10px;
+    bottom: 27px;
+}
+
+.center {
+    position: relative;
+    left: 35px;
+}
+
+.top-right {
+    position: absolute;
+    left: 580px;
+    bottom: 27px;
+}
+
+.post-icons {
+    padding: 25px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.left {
+    display: inline-flex;
+    position: absolute;
+    left: 10px;
+}
+
+.left-center {
+    display: inline-flex;
+    position: relative;
+    left: 21px;
+    bottom: 5px;
+}
+
+.bt-center {
+    display: inline-flex;
+    position: relative;
+    left: 50px;
+    bottom: 23px;
+}
+.right {
+    display: inline-flex;
+    position: absolute;
+    left: 550px;
+    bottom: 60px;
+}
+Div p {
+    text-align: justify;
+    padding: 0px 10px 20px 5px;
+    margin: auto;
+}
